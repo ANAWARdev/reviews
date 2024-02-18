@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    height: 100vh;
+}
+main #title {
+    height: 70px;
+    padding: 20px;
+    margin: 20px;
+}
+main h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+section {
+    margin: 10px auto;
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+ main section #bleu {
+    background-color: rgb(99, 99, 255);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    justify-content: center;
+    margin: 15px auto;
+}
+main section h2 {
+    margin: 5px;
+    
+}
+main section h3 {
+    margin: 5px;
+    color: rgb(99, 99, 255);
+    font-size: 12px;
+}
+main section p {
+   margin: 20px;
+   letter-spacing: 1px;
+}
+main svg {
+   fill: rgb(99, 99, 255);
+   position: absolute;
+   top: 10%;
+   left: 36%;
+}
+main img {
+    width: 140px;
+    height: 149px;
+    border-radius: 50%;
+   margin-right: 60%;
+    position: relative;
+}
+
+#surprise_me {
+    width: 80px;
+    text-align: center;
+    margin: 5px;
+}
+#introduction {
+    display: flex;  
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+#bouton {
+    text-align: center;
+    margin: 5px;
+}
